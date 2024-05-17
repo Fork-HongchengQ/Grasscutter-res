@@ -431,25 +431,26 @@ public class ConfigContainer {
     }
 
     public static class Resource {
-        public String resourceUrl = "";
-        public String dataUrl = "";
+        //pc
+        public String resourceUrl = "https://autopatchhk.yuanshen.com/client_game_res/4.5_live";
+        public String dataUrl = "https://autopatchhk.yuanshen.com/client_design_data/4.5_live";
         public String resourceUrlBak = "";
-        public int clientDataVersion = 0;
-        public int clientSilenceDataVersion = 0;
-        public String clientDataMd5 = "";
-        public String clientSilenceDataMd5 = "";
+        public int clientDataVersion = 22465243;
+        public int clientSilenceDataVersion = 21858521;
+        public String clientDataMd5 = "{\\\"remoteName\\\": \\\"data_versions\\\", \\\"md5\\\": \\\"eb9b402016c76770ddc9d5a169dcfd48\\\", \\\"hash\\\": \\\"b16bd096d0c7d285\\\", \\\"fileSize\\\": 6523}\\r\\n{\\\"remoteName\\\": \\\"data_versions_medium\\\", \\\"md5\\\": \\\"b0ffcd21a88af82a2661e40cac115acf\\\", \\\"hash\\\": \\\"9b98e8158f002b39\\\", \\\"fileSize\\\": 6523}";
+        public String clientSilenceDataMd5 = "{\\\"remoteName\\\": \\\"data_versions\\\", \\\"md5\\\": \\\"60cf7110693dda2976a447a18ac1d6a5\\\", \\\"hash\\\": \\\"e44e5dbd5ae7fb89\\\", \\\"fileSize\\\": 522}";
         public ResVersionConfig resVersionConfig = new ResVersionConfig();
-        public String clientVersionSuffix = "";
-        public String clientSilenceVersionSuffix = "";
+        public String clientVersionSuffix = "b932e2497d";
+        public String clientSilenceVersionSuffix = "d339155f05";
         public String nextResourceUrl = "";
         public ResVersionConfig nextResVersionConfig = new ResVersionConfig();
     }
 
     public static class ResVersionConfig {
-        public int version = 0;
-        public String md5 = "";
-        public String releaseTotalSize = "";
-        public String versionSuffix = "";
-        public String branch = "";
+        public int version = 22021066;
+        public String md5 = "{\\\"remoteName\\\": \\\"res_versions_external\\\", \\\"md5\\\": \\\"adb3e12fbf717600f70ce4a0e0d46650\\\", \\\"hash\\\": \\\"ff18b361d876d892\\\", \\\"fileSize\\\": 2178038}\\r\\n{\\\"remoteName\\\": \\\"res_versions_medium\\\", \\\"md5\\\": \\\"ecf8d7a6ab1295ee34a80ab29edcbb84\\\", \\\"hash\\\": \\\"2e5aa69e9f956e91\\\", \\\"fileSize\\\": 313346}\\r\\n{\\\"remoteName\\\": \\\"res_versions_streaming\\\", \\\"md5\\\": \\\"aa1baf8e6e58d80b9676c686c4ea4d58\\\", \\\"hash\\\": \\\"ef54b41d05025f46\\\", \\\"fileSize\\\": 115479}\\r\\n{\\\"remoteName\\\": \\\"base_revision\\\", \\\"md5\\\": \\\"66474f0fca98d73dcb636deb9e96702d\\\", \\\"hash\\\": \\\"8650fd397330e2f1\\\", \\\"fileSize\\\": 19}";
+        public String releaseTotalSize = "0";
+        public String versionSuffix = "0ad2263aaa";
+        public String branch = "4.5_live";
     }
 }
